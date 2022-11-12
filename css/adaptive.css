@@ -1,0 +1,297 @@
+@media screen and (max-width:1225px) {
+    .banner {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .banner_h {
+        font-size: 65px;
+        max-width: 750px;
+    }
+
+    .box_h {
+        font-size: 24px;
+    }
+
+    .box-h {
+        font-size: 20px;
+    }
+
+    .box_p {
+        font-size: 13px;
+    }
+
+    .ad {
+        height: 120px;
+        max-width: 120px;
+    }
+
+    .img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .post {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:1135px) {
+    .services_h {
+        font-size: 55px;
+    }
+
+    .services_wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .box:nth-child(2) {
+        margin-top: 0;
+    }
+
+    .box:last-child {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:1013px) {
+
+    .box_h {
+        font-size: 20px;
+    }
+
+    .box-h {
+        font-size: 17px;
+    }
+
+    .box_p {
+        font-size: 11px;
+    }
+
+    .pre_h {
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width:950px) {
+
+    .banner_h {
+        font-size: 60px;
+    }
+
+    .photo {
+        display: none;
+    }
+
+    .photoP {
+        display: flex;
+    }
+
+}
+
+@media screen and (max-width:830px) {
+    .card_img {
+        width: 285px;
+        height: 170px;
+    }
+
+    .card {
+        padding: 21px;
+        flex-basis: 10%;
+    }
+
+    .works_wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box {
+        padding: 51px 90px 56px 41px;
+        max-width: 350px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:730px) {
+    .bbtn {
+        padding: 10px 20px;
+    }
+
+    .menu {
+        gap: 20px;
+    }
+
+    .banner_h {
+        font-size: 55px;
+    }
+
+    .ad {
+        height: 100px;
+        max-width: 100px;
+    }
+
+    .ad-h {
+        display: block;
+    }
+
+    .ad_h {
+        display: none;
+    }
+
+    .ad {
+        background: none;
+    }
+
+}
+
+@media screen and (max-width:710px) {
+    .works_wrap {
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .boox {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .lastbox {
+        margin-top: 0;
+    }
+
+    .services_wrap {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .post {
+        flex-basis: 25%;
+    }
+
+    .insta_wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .ad {
+        display: none;
+    }
+
+    .ads {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width:630px) {
+    .menu {
+        gap: 15px;
+    }
+
+    .btn {
+        padding: 5px 10px;
+        margin-top: 5px;
+    }
+
+    .wrap {
+        flex-direction: column;
+    }
+
+    .bbtn {
+        display: none;
+    }
+
+    .btn {
+        display: block;
+    }
+
+    .logo {
+        display: block;
+    }
+
+    .llogo {
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .banner_h {
+        font-size: 45px;
+    }
+
+    .pre_h {
+        font-size: 45px;
+    }
+
+}
+
+@media screen and (max-width:570px) {
+    .footer_wrap {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .bbtn {
+        display: block;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .banner_h {
+        font-size: 40px;
+    }
+
+    .works_h{
+        font-size: 50px;
+    }
+
+    .services_h{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:440px){
+    .banner_h{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .link {
+        font-size: 9px;
+    }
+    
+    .banner_h{
+        font-size: 30px;
+    }
+
+    .card{
+        max-width: 300px;
+    }
+
+    .banner_p{
+        font-size: 10px;
+    }
+
+    .banner_btn{
+        font-size: 9px;
+        padding: 8px 18px;
+    }
+}
